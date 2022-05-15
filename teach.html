@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teacher's Login</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="js/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>   
+
+<body>
+    <div class="container">       
+        <div class="row">
+            <div class="col-md-3">
+            <img src="img/gmit_3.png" alt="" height="135px" width="60%">
+            </div>
+            <div class="col-md-8" style="padding-top: 25px;">
+              <img src="img/gmit_2.png" alt="" height="100px" width="100%">
+            </div>   
+        </div>            
+    </div>
+    <div class="fluid-cointaier">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/line.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/gmit_1.jpg" alt="" width="100%" height="300px">
+            </div>
+        </div>
+    </div>
+
+    <div class="container register">
+        <div class="row">
+            <div class="col-md-3 register-left">
+                <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                <h3>Welcome To</h3>
+                <h4 style="color: rgb(206, 233, 55);"><i>GARGI MEMORIAL INSTITUTE OF TECHNOLOGY</i></h4>
+                <h3><i>Approved by</i></h3>
+                <h4 style="color: rgb(206, 233, 55);"><i>Maulana Abul Kalam Azad University of Technology</i></h4>
+            </div>
+            <div class="col-md-9 register-right">
+                <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                    <li class="nav-item" >
+                      <center> <a style="font-size: 30px;padding-bottom:45px ;" class="nav-link active"  id="home-tab" data-toggle="tab" 
+                        href="#home" role="tab" aria-controls="home" aria-selected="true">ONLY FOR TEACHER</a></center>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 style="padding-top:60px ;"class="register-heading">Teacher Login</h3>
+                    <form action="teachlogin.php" method="POST">
+                            <div class="row register-form">
+                                    <div class="col-md-6">
+                                       <div class="form-group">
+                                           <input type="text" name="user" class="form-control" placeholder="User Name *" value="" required/>
+                                       </div>
+                                    </div>
+                               
+                                   <div class="col-md-6">
+                                       <div class="form-group">
+                                           <input type="password" name="pass"  class="form-control" placeholder="Password *" value="" required />
+                                       </div>
+                                       <div class="form-group">
+                                        <input type="submit" class="btnRegister"  value="Login" name="button" />
+                                        <div class="form-group">
+                                            <a class="btnRegister" style="text-align: center;" href="index.html">Previous</a>
+                                         </div>
+                                           
+                                    </div>
+                                   </div>
+                            </div>
+                        </form>  
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><br><br><br><br>
+
+<div class="footer">
+    <p>@ 2020 All Rights Reserved Gargi Memorial Institute of Technology,Kolkata, West Bengal</p>
+</div>
+                        
+</body>
+</html>
