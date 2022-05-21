@@ -190,7 +190,7 @@ if(isset($_POST['button']))
     <div class="container">
         <center>
             <div class="grayBox" style="height:400px;width: 100%;">
-            <h2 style="padding: 12px;font-size:35px;color:blue;"><a href="index.html">Dashboard</a></h2>
+            <h2 style="padding: 12px;font-size:35px;color:blue;"><a href="index.php">Dashboard</a></h2>
 
             <?php echo "<h2>In valid user id or Password</h2>"; ?>
 

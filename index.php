@@ -137,7 +137,7 @@
 	        <ul class="navbar-nav mr-auto">
 				<li class="nav-item"><a href="#"><i class="fa fa-user" style="font-size: 45px;" aria-hidden="true" data-toggle="modal"
 					data-target="#Modal"></i></a></li> &nbsp&nbsp&nbsp
-	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
+	        	<li class="nav-item active"><a href="index.php" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item"><a href="stdregistn.html" class="nav-link">Student Registration</a></li>
 	        	<li class="nav-item"><a href="stdlogin.html" class="nav-link">Studente Login</a></li>
 	        	<li class="nav-item"><a href="newsybus.html" class="nav-link">New syallabus</a></li>
